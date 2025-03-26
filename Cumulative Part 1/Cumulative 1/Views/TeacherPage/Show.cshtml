@@ -1,0 +1,16 @@
+﻿@model Cumulative_1.Models.Teacher
+
+@{
+    ViewData["Title"] = "Teacher Details";
+}
+<div class="detail-container">
+<h2>Teacher Details</h2>
+
+<p><strong>ID:</strong> @Model.TeacherId</p>
+<p><strong>First Name:</strong> @Model.TeacherFName</p>
+<p><strong>Last Name:</strong> @Model.TeacherLName</p>
+<p><strong>Employee Number:</strong> @Model.EmployeeNumber</p>
+<p><strong>Hire Date:</strong> @(Model.HireDate.HasValue ? Model.HireDate.Value.ToString("yyyy-MM-dd") : "N/A")</p>
+
+<a href="@Url.Action("List", "TeacherPage")">Back to List</a>
+</div>

@@ -1,0 +1,29 @@
+﻿@model List<Cumulative_1.Models.Teacher>
+
+@{
+    ViewData["Title"] = "List of Teachers";
+}
+<div class="table-container">
+<h2>List of Teachers</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var teacher in Model)
+        {
+            <tr>
+                <td>@teacher.TeacherFName</td>
+                <td>@teacher.TeacherLName</td>
+                <td>
+                    <a href="@Url.Action("Show", "TeacherPage", new { id = teacher.TeacherId })">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
