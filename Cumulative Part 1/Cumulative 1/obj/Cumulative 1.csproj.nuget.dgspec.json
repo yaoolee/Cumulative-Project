@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\backend\\Cumulative 1\\Cumulative 1\\Cumulative 1.csproj": {}
+    "D:\\backend\\Cumulative Part 1\\Cumulative 1\\Cumulative 1.csproj": {}
   },
   "projects": {
-    "D:\\backend\\Cumulative 1\\Cumulative 1\\Cumulative 1.csproj": {
+    "D:\\backend\\Cumulative Part 1\\Cumulative 1\\Cumulative 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\backend\\Cumulative 1\\Cumulative 1\\Cumulative 1.csproj",
+        "projectUniqueName": "D:\\backend\\Cumulative Part 1\\Cumulative 1\\Cumulative 1.csproj",
         "projectName": "Cumulative 1",
-        "projectPath": "D:\\backend\\Cumulative 1\\Cumulative 1\\Cumulative 1.csproj",
+        "projectPath": "D:\\backend\\Cumulative Part 1\\Cumulative 1\\Cumulative 1.csproj",
         "packagesPath": "C:\\Users\\yao-1\\.nuget\\packages\\",
-        "outputPath": "D:\\backend\\Cumulative 1\\Cumulative 1\\obj\\",
+        "outputPath": "D:\\backend\\Cumulative Part 1\\Cumulative 1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

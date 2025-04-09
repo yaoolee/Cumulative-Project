@@ -4,6 +4,13 @@
     ViewData["Title"] = "List of Teachers";
 }
 <div class="table-container">
+    <a style="margin-bottom:10px;" href="/TeacherPage/New">Add Teacher</a>
+    <form method="GET" action="/TeacherPage/List">
+        <div>
+            <input type="text" name="SearchKey" />
+            <input type="submit" value="Search" />
+        </div>
+    </form>
 <h2>List of Teachers</h2>
 <table border="1">
     <thead>

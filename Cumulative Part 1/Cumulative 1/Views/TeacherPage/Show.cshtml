@@ -11,6 +11,6 @@
 <p><strong>Last Name:</strong> @Model.TeacherLName</p>
 <p><strong>Employee Number:</strong> @Model.EmployeeNumber</p>
 <p><strong>Hire Date:</strong> @(Model.HireDate.HasValue ? Model.HireDate.Value.ToString("yyyy-MM-dd") : "N/A")</p>
-
-<a href="@Url.Action("List", "TeacherPage")">Back to List</a>
+<a href="/TeacherPage/List">Back to List</a><br>
+<a class="alert-warning" href="/TeacherPage/DeleteConfirm/@Model.TeacherId">Delete</a>
 </div>

@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\backend\\Cumulative 1\\",
+  "WorkspaceRootPath": "D:\\backend\\Cumulative Part 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6850727-419E-4B5D-9CF3-60237F923565}|Cumulative 1\\Cumulative 1.csproj|d:\\backend\\cumulative 1\\cumulative 1\\views\\teacherpage\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C6850727-419E-4B5D-9CF3-60237F923565}|Cumulative 1\\Cumulative 1.csproj|d:\\backend\\cumulative part 1\\cumulative 1\\views\\teacherpage\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6850727-419E-4B5D-9CF3-60237F923565}|Cumulative 1\\Cumulative 1.csproj|solutionrelative:cumulative 1\\views\\teacherpage\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6850727-419E-4B5D-9CF3-60237F923565}|Cumulative 1\\Cumulative 1.csproj|d:\\backend\\cumulative 1\\cumulative 1\\views\\teacherpage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C6850727-419E-4B5D-9CF3-60237F923565}|Cumulative 1\\Cumulative 1.csproj|d:\\backend\\cumulative part 1\\cumulative 1\\views\\teacherpage\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6850727-419E-4B5D-9CF3-60237F923565}|Cumulative 1\\Cumulative 1.csproj|solutionrelative:cumulative 1\\views\\teacherpage\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6850727-419E-4B5D-9CF3-60237F923565}|Cumulative 1\\Cumulative 1.csproj|d:\\backend\\cumulative part 1\\cumulative 1\\views\\teacherpage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6850727-419E-4B5D-9CF3-60237F923565}|Cumulative 1\\Cumulative 1.csproj|solutionrelative:cumulative 1\\views\\teacherpage\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6850727-419E-4B5D-9CF3-60237F923565}|Cumulative 1\\Cumulative 1.csproj|d:\\backend\\cumulative 1\\cumulative 1\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C6850727-419E-4B5D-9CF3-60237F923565}|Cumulative 1\\Cumulative 1.csproj|solutionrelative:cumulative 1\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C6850727-419E-4B5D-9CF3-60237F923565}|Cumulative 1\\Cumulative 1.csproj|d:\\backend\\cumulative part 1\\cumulative 1\\views\\teacherpage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6850727-419E-4B5D-9CF3-60237F923565}|Cumulative 1\\Cumulative 1.csproj|solutionrelative:cumulative 1\\views\\teacherpage\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,39 +32,52 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Show.cshtml",
-              "DocumentMoniker": "D:\\backend\\Cumulative 1\\Cumulative 1\\Views\\TeacherPage\\Show.cshtml",
+              "DocumentMoniker": "D:\\backend\\Cumulative Part 1\\Cumulative 1\\Views\\TeacherPage\\Show.cshtml",
               "RelativeDocumentMoniker": "Cumulative 1\\Views\\TeacherPage\\Show.cshtml",
-              "ToolTip": "D:\\backend\\Cumulative 1\\Cumulative 1\\Views\\TeacherPage\\Show.cshtml",
+              "ToolTip": "D:\\backend\\Cumulative Part 1\\Cumulative 1\\Views\\TeacherPage\\Show.cshtml",
               "RelativeToolTip": "Cumulative 1\\Views\\TeacherPage\\Show.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T01:10:53.893Z",
+              "WhenOpened": "2025-04-09T03:50:11.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "D:\\backend\\Cumulative 1\\Cumulative 1\\Views\\TeacherPage\\List.cshtml",
-              "RelativeDocumentMoniker": "Cumulative 1\\Views\\TeacherPage\\List.cshtml",
-              "ToolTip": "D:\\backend\\Cumulative 1\\Cumulative 1\\Views\\TeacherPage\\List.cshtml",
-              "RelativeToolTip": "Cumulative 1\\Views\\TeacherPage\\List.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Title": "DeleteConfirm.cshtml",
+              "DocumentMoniker": "D:\\backend\\Cumulative Part 1\\Cumulative 1\\Views\\TeacherPage\\DeleteConfirm.cshtml",
+              "RelativeDocumentMoniker": "Cumulative 1\\Views\\TeacherPage\\DeleteConfirm.cshtml",
+              "ToolTip": "D:\\backend\\Cumulative Part 1\\Cumulative 1\\Views\\TeacherPage\\DeleteConfirm.cshtml",
+              "RelativeToolTip": "Cumulative 1\\Views\\TeacherPage\\DeleteConfirm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T01:09:49.151Z",
+              "WhenOpened": "2025-04-09T03:44:47.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "style.css",
-              "DocumentMoniker": "D:\\backend\\Cumulative 1\\Cumulative 1\\wwwroot\\css\\style.css",
-              "RelativeDocumentMoniker": "Cumulative 1\\wwwroot\\css\\style.css",
-              "ToolTip": "D:\\backend\\Cumulative 1\\Cumulative 1\\wwwroot\\css\\style.css",
-              "RelativeToolTip": "Cumulative 1\\wwwroot\\css\\style.css",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-26T01:07:23.763Z",
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\backend\\Cumulative Part 1\\Cumulative 1\\Views\\TeacherPage\\List.cshtml",
+              "RelativeDocumentMoniker": "Cumulative 1\\Views\\TeacherPage\\List.cshtml",
+              "ToolTip": "D:\\backend\\Cumulative Part 1\\Cumulative 1\\Views\\TeacherPage\\List.cshtml",
+              "RelativeToolTip": "Cumulative 1\\Views\\TeacherPage\\List.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T05:33:16.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "D:\\backend\\Cumulative Part 1\\Cumulative 1\\Views\\TeacherPage\\New.cshtml",
+              "RelativeDocumentMoniker": "Cumulative 1\\Views\\TeacherPage\\New.cshtml",
+              "ToolTip": "D:\\backend\\Cumulative Part 1\\Cumulative 1\\Views\\TeacherPage\\New.cshtml",
+              "RelativeToolTip": "Cumulative 1\\Views\\TeacherPage\\New.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T03:31:38.311Z",
               "EditorCaption": ""
             }
           ]
