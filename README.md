@@ -2,13 +2,16 @@
 ## Teachers MVP - ASP.NET Core Web API & MVC
 
 ## Overview
-This project is a **Minimum Viable Product (MVP)** that focuses on the **Teachers** table of the provided **School Database**. It is built using **ASP.NET Core Web API and MVC** with **MySQL** as the database. The project implements only the **READ** functionality.
+This project is a **Minimum Viable Product (MVP)** that focuses on the **Teachers** table of the provided **School Database**. It is built using **ASP.NET Core Web API and MVC** with **MySQL** as the database. It currently supports **READ**, **ADD**, and **DELETE** functionalities.
 
 ## Features
 - **ASP.NET Core Web API** for fetching teacher data.
 - **MVC Pages** for listing and displaying teacher details.
 - **MySQL Integration** using `MySql.Data.MySqlClient`.
 - **Structured Code** with separate **Controllers, Models, and Views**.
+- **Read**: Fetch teacher data via API and display in MVC views.
+-  **Add**: Create new teachers via API or form submission.
+-  **Delete**: Remove teachers via API or MVC confirmation page.
 
 ## Project Structure
 ```
@@ -23,6 +26,8 @@ This project is a **Minimum Viable Product (MVP)** that focuses on the **Teacher
  ┃ ┗ 📂 TeacherPage
  ┃   ┣ 📜 List.cshtml  # Displays list of teachers
  ┃   ┗ 📜 Show.cshtml  # Displays a specific teacher
+ ┃   ┗📜 New.cshtml    # Form to add a new teacher
+ ┃   ┗ 📜 DeleteConfirm.cshtml  # Confirms deletion of a teacher
  ┗ 📜 README.md
 ```
 
@@ -43,18 +48,28 @@ This project is a **Minimum Viable Product (MVP)** that focuses on the **Teacher
 5. Run the project in **Visual Studio 2022**.
 6. Navigate to:
    - **API Endpoint:** `http://localhost:5000/api/TeacherAPI/ListTeachers`
+   - **API Endpoint (Add):** `http://localhost:5000/api/TeacherAPI/AddTeacher`
+   - **API Endpoint (Delete):** `http://localhost:5000/api/TeacherAPI/DeleteTeacher/{id}`
    - **MVC List Page:** `http://localhost:5000/TeacherPage/List`
    - **MVC Show Page:** `http://localhost:5000/TeacherPage/Show/{id}`
+   - **MVC Add Page:** `http://localhost:5000/TeacherPage/New`
+   - **MVC Delete Page:** `http://localhost:5000/TeacherPage/DeleteConfirm/{id}`
 
 ## API Endpoints
-| Method | Endpoint | Description |
+| Method | Endpoint | Description | 
 |--------|---------|-------------|
 | **GET** | `/api/TeacherAPI/ListTeachers` | Fetch all teachers |
 | **GET** | `/api/TeacherAPI/FindTeacher/{id}` | Fetch a teacher by ID |
+| **POST** | `/api/TeacherAPI/AddTeacher` | Add a new teacher |
+| **DELETE** | `/api/TeacherAPI/DeleteTeacher/{id}` | Delete a teacher by ID |
+
 
 ## Future Enhancements
-- Add **Create, Update, and Delete (CRUD)** operations.
-- Improve **styling and UI enhancements**.
+- Add **Update functionality** for teachers.
+- Improve **styling and UI enhancements and form validation.**.
+- Fix **Search** option to find specific teacher.
+- Update Teacher ID correctly after adding and deleting teacher.
+- Add **Students and Course** based on CRUD operations.
   
 
 
