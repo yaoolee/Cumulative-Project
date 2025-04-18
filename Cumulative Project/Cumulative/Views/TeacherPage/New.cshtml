@@ -1,0 +1,36 @@
+@model Cumulative_1.Models.Teacher
+@{
+    ViewData["Title"] = "Add New Teacher";
+}
+
+<h2>Add New Teacher</h2>
+
+<form method="post" asp-action="Create">
+    <div class="form-group">
+        <label asp-for="TeacherFName">First Name</label>
+        <input asp-for="TeacherFName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TeacherLName">Last Name</label>
+        <input asp-for="TeacherLName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EmployeeNumber">Employee Number</label>
+        <input asp-for="EmployeeNumber" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HireDate">Hire Date</label>
+        <input asp-for="HireDate" type="date" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Salary">Salary</label>
+        <input asp-for="Salary" class="form-control" />
+    </div>
+
+    <button type="submit" class="custom-button">Add Teacher</button>
+    <a href="/TeacherPage/List" class="custom-button cancel-button">Cancel</a>
+</form>
